@@ -1,0 +1,1 @@
+import{b as n,g as e}from"./index.61613632.js";function c(){return n.exports.useContext(e)}function r(t=e){const o=t===e?c:()=>n.exports.useContext(t);return function(){const{store:s}=o();return s}}const a=r();function x(t=e){const o=t===e?a:r(t);return function(){return o().dispatch}}const p=x();export{p as u};
